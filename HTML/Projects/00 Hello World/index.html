@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset = "UTF-8"/>
+    <title>Home</title>
+
+    <!--React Library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react.js"></script>
+    
+    <!--Reacts DOM library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react-dom.js"></script>
+    
+    <!--babel library which is a browser based compiler-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+
+    <!--Runs the local index.js file-->
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="div_contents"></div>
+
+    <!--text/babel types are scripts types that the browser based JSX compiler will look for to compile-->
+    <script type="text/babel">
+        var contentNode = document.getElementById("div_contents");          // gets the HTML Element (which will be used as a node)
+        
+        /*
+            Note: The following is not a string, it is a JSX (A special HTML-like language)
+            This is possible due to react-DOM library
+            Equivalent to: var component = React.createElement('h1', null, 'Hello World!');
+        */
+        var component = <h1>Hello World!</h1>;                              // defines what the selected node will contain
+        
+        ReactDOM.render(component, contentNode);                            // renders the content onto the node
+    </script>
+</body>
+</html>
