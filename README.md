@@ -9,8 +9,10 @@
 | [Description](#description)                       |
 | [Repository Structure](#repository-structure)     |
 | [Prerequisites](#prerequisites)                   |
+| [Optional Tools](#optional-tools)                 |
 | [Introduction](#introduction)                     |
 | [Coding Adventure](#coding-adventure)             |
+| [Personal Tutorials](#personal-tutorials)         |
 | [Links](#links)                                   |
 
 ## Description
@@ -34,6 +36,9 @@ This is a project aimed at providing training resources for MERN stack developme
   - #### JavaScript
   - #### Terminal Commands (navigation, etc)
 
+## Optional Tools
+- [React Developer Tools](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+  - A Chrome extention that assist in the development of ReactJS
 - - -
 ## Introduction
 ### What is MERN?
@@ -70,6 +75,7 @@ This is a project aimed at providing training resources for MERN stack developme
 | --------------------------------------------------------------------------------------- |
 | [Development Environment Configuration](#development-environment-configuration)         |
 | [Hello World](./Projects/01%20Hello%20World/)                                           |
+| [Resume Portfolio📜](./Projects/Complete%20Projects/01%20Resume/)                       |
 
 #### Development Environment Configuration
 - ##### Installing NVM
