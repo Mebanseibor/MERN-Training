@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+
+    <!-- React Library -->
+    <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin></script>
+
+    <!-- React DOM Library -->
+    <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin></script>
+    
+    <!-- Babel library which is a browser-based compiler -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="div1"></div>
+    <script type="text/babel">
+        function MyApp() {
+            return <h2>Hello World</h2>;
+        }
+        const container = document.getElementById('div1');
+        const root = ReactDOM.createRoot(container);
+        root.render(<MyApp />);
+    </script>
+</body>
+</html>

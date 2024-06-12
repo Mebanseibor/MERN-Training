@@ -32,14 +32,14 @@ This is a project aimed at providing training resources for MERN stack developme
 - ### Field of Knowledge
   - #### HTML and CSS
   - #### JavaScript
-  - #### CommandTerminal Commands (navigation, etc)
+  - #### Terminal Commands (navigation, etc)
 
 - - -
 ## Introduction
 ### What is MERN?
 &emsp;**MERN** is an acronym that stands for *MongoDB*, *Express.js*, *React*, and *Node.js*.
-&emsp;It represents a stack of technologies used to develop modern web applications.
-&emsp;Each component of the MERN stack has a specific role:
+<br>&emsp;It represents a stack of technologies used to develop modern web applications.
+<br>&emsp;Each component of the MERN stack has a specific role:
 | Component     | Role |
 | ------------- |  --- |
 | MongoDB       |  A NoSQL database that stores data in flexible, JSON-like documents                                                                   |
@@ -66,13 +66,13 @@ This is a project aimed at providing training resources for MERN stack developme
     - Easy-to-navigate file structure
     - Include only necessary files and folders
 ### Personal Tutorials
-| Tutorial Name                                                                     |
-| --------------------------------------------------------------------------------- |
-| [Development Environment Configuration](#development-environment-configuration)   |
-| [Hello World](./Projects/00%20Hello%20World/)                                     |
+| Tutorial Name                                                                           |
+| --------------------------------------------------------------------------------------- |
+| [Development Environment Configuration](#development-environment-configuration)         |
+| [Hello World](./Projects/01%20Hello%20World/)                                           |
 
 #### Development Environment Configuration
-- ##### NVM
+- ##### Installing NVM
   - Abbreviation for *Node Version Manager*, it is version manager for Node.js (Node)
   - Download and install nvm from [github](https://github.com/coreybutler/nvm-windows)
   - Restart VS Code for the installation to take immediate effect in VS Code
@@ -80,7 +80,7 @@ This is a project aimed at providing training resources for MERN stack developme
   ```bash
   npm --version
   ```
-- #### Node
+- #### Installing Node
     - For the latest node version enter the following terminal command:
     ```bash
     nvm install node
@@ -97,7 +97,7 @@ This is a project aimed at providing training resources for MERN stack developme
     ```bash
     nvm use <version_number>
     ```
-    - Verify the proper installation of ndoe by entering the following command in the terminal:
+    - Verify the proper installation of node by entering the following command in the terminal:
     
     ```bash
     node --version
@@ -105,5 +105,5 @@ This is a project aimed at providing training resources for MERN stack developme
 
 - - - 
 ## Links
-- [HTML Projects Examples](https://www.knowledgehut.com/blog/web-development/html-projects)
+- [HTML Project Examples](https://www.knowledgehut.com/blog/web-development/html-projects)
 - [JavaScript Tutorial](https://www.w3schools.com/js/)
