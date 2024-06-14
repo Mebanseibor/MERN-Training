@@ -1,0 +1,29 @@
+.navbar_container{
+    background-color: #C9ADA7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_left{
+    font-size: 26px;
+    font-weight: 700;
+    color: #22223B;
+}
+
+.navbar_right{
+    display: flex;
+}
+
+.navbar_right > a{
+    margin-right: 10px;
+    padding: 8px 10px;
+    font-size: 12px;
+}
+
+.navbar_right > a:hover{
+    background-color: #4A4E69;
+    color: #F2E9E4;
+    cursor: pointer;
+    border-radius: 8px;
+}
