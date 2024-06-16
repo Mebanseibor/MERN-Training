@@ -36,9 +36,11 @@ This is a project aimed at providing training resources for MERN stack developme
   - #### JavaScript
   - #### Terminal Commands (navigation, etc)
 
-## Optional Tools
+## Optional Tools or Tips
 - [React Developer Tools](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
   - A Chrome extention that assist in the development of ReactJS
+- You can make use of the browser's element, console or network tools to debug your code
+  - Chrome Shorct-cut: `SHIFT` + `CTRL` + `J`
 - - -
 ## Introduction
 ### What is MERN?
@@ -58,14 +60,15 @@ This is a project aimed at providing training resources for MERN stack developme
   - It is used in the Database, the Server, the client and on the wire
   - No ORM (Object Relational Mapping) required which:
     - Saves time in transformation 
-    - Requires no special serialization and de-serialization code 
+    - Requires no special serialization and de-serialization code
 
 - - -
 ## Coding Adventure
 ### Good Practices
 &emsp;As a developer, it is expected to maintain some common good practices that are accepted by the majority of the developer's community. These include:
 - #### Adhering to a selected naming convention
-    - Regularities in variable and functions notations
+    - Regularities in variable and functions notations:
+      - Identifiers for constants are denoted with all uppercase letters
     - Regularities in file naming
 - #### Directory Structures
     - Easy-to-navigate file structure
@@ -75,9 +78,11 @@ This is a project aimed at providing training resources for MERN stack developme
 | --------------------------------------------------------------------------------------- |
 | [Development Environment Configuration](#development-environment-configuration)         |
 | [Hello World](./Projects/01%20Hello%20World/)                                           |
-| [Resume Portfolio📜](./Projects/Complete%20Projects/01%20Resume/)                       |
+| [Resume Portfolio📜](./Projects/Complete%20Projects/01%20Resume%20Portfolio//)                       |
+| [Tic-Tac-Toe App✖️🔘]()                                                                |
 
 #### Development Environment Configuration
+*`Ensure you have an internet connection to download the packages`*
 - ##### Installing NVM
   - Abbreviation for *Node Version Manager*, it is version manager for Node.js (Node)
   - Download and install nvm from [github](https://github.com/coreybutler/nvm-windows)
@@ -86,7 +91,7 @@ This is a project aimed at providing training resources for MERN stack developme
   ```bash
   npm --version
   ```
-- #### Installing Node
+- ##### Installing Node
     - For the latest node version enter the following terminal command:
     ```bash
     nvm install node
@@ -109,7 +114,53 @@ This is a project aimed at providing training resources for MERN stack developme
     node --version
     ```
 
+#### About vite
+  - For this repository, we'll be using [vite](https://vitejs.dev/) as our bundler or module handler
+  - It allows developers a mechanism for authoring JavaScript in a modularized fashion (i.e., bundling)
+  - It enables us to bundle our `jsx` files together since browsers doesn't understand these files
+  - [More on vite](https://vitejs.dev/guide/)
+  - Addressing vite's requirements and conventions:
+    - Vite requires `Node.js` version 18+ or 20+
+    - [index.html placement](https://vitejs.dev/guide/#index-html-and-project-root): The `index.html` is not tucked away in the `public\` folder, but resides in the project's root directory
+- ##### Installation of bundler `vite`
+  - Installation Procedure:
+    - Install create-vite:
+      ```bash
+      npm install create-vite
+      ```
+    - Verify the installation:
+      - Terminal Command:
+        ```bash
+        npm ls
+        ```
+      - Expected Output: `create-vite@` with version number specified at the end
+
 - - - 
 ## Links
 - [HTML Project Examples](https://www.knowledgehut.com/blog/web-development/html-projects)
 - [JavaScript Tutorial](https://www.w3schools.com/js/)
+- [npm CLI commands](https://docs.npmjs.com/cli/v6/commands)
+
+- - -
+## Repository Future Plan additions:
+  - ### How to deal with images
+  
+  - ### Modulizing content and data
+    
+    - #### Exporting and Importing Constants
+    
+    - #### Using constants
+      - ##### Note: Paths are relative to the object from which they are called from
+    
+    - #### Effeciently dealing with repeatitive content
+      - ##### Handling arrays of objects
+      - ##### Handling object of objects
+      - ##### key property of the component
+    
+    - #### Dealing with images
+      - ##### Tip: Import the images into the constant files
+  
+  - ### Passing properties to a component
+  
+  - ### Debugging tips
+    - #### Using Margins

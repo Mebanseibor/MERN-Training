@@ -1,4 +1,6 @@
 import "./Navbar.css";
+import { THEME } from "../../constants";
+import NavbarRight from "./NavbarRight/NavbarRight";
 
 function Navbar(){
     return(
@@ -6,12 +8,7 @@ function Navbar(){
             <div className="navbar_left">
                 <p>Mebanseibor Lyngdoh</p>
             </div>
-            <div className="navbar_right">
-                <a href="">About</a>
-                <a href="">Contact Me</a>
-                <a href="">Projects</a>
-                <a href="https://github.com/Mebanseibor">Github</a>
-            </div>
+            <NavbarRight />
         </div>
     );
 };

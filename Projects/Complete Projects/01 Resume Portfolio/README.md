@@ -1,10 +1,10 @@
 # Resume Portfolio📜
 - ## Goal🥅
-  - To create a dynamic Resume Portfolio utilizing ReactJS and NodeJS
+  - To demonstrate how to use components to create aResume Portfolio utilizing ReactJS and NodeJS
 ---
-- ### Create an empty folder
+- ### Create an empty folder with your Project's name
 
-- ### Creating a vite project
+- ### Create a vite project
   - Open the terminal
   - Navigate to outside your Project Folder
     - *Hint*: Navigate outside the folder with `cd ../`
@@ -227,7 +227,7 @@ Your Resume Portfolio:
     - Right now your Navigation Bar is created, but it looks dull, so we should beautify it
     - Open `Navbar.css`
     - Utilize the class name of the elements in the component to target the element and change their attributes
-      <small>*Tip:*
+      <br><small>*Tip:*
       - *Use `.` to refer to the class attribute*
       - *Use `>` to refer to all the elements of a particular type under the specified class*
       </small>
