@@ -9,7 +9,7 @@
 | [Description](#description)                       |
 | [Repository Structure](#repository-structure)     |
 | [Prerequisites](#prerequisites)                   |
-| [Optional Tools](#optional-tools)                 |
+| [Optional Tools](#optional-tools-and-tips)                 |
 | [Introduction](#introduction)                     |
 | [Coding Adventure](#coding-adventure)             |
 | [Personal Tutorials](#personal-tutorials)         |
@@ -36,7 +36,7 @@ This is a project aimed at providing training resources for MERN stack developme
   - #### JavaScript
   - #### Terminal Commands (navigation, etc)
 
-## Optional Tools or Tips
+## Optional Tools and Tips
 - [React Developer Tools](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
   - A Chrome extention that assist in the development of ReactJS
 - You can make use of the browser's element, console or network tools to debug your code
