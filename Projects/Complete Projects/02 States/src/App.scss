@@ -1,0 +1,28 @@
+$platinum: #d3d4d9ff;
+$air-force-blue: #4b88a2ff;
+$fire-brick: #bb0a21ff;
+$DarkTone01: #252627ff;
+$snow: #fff9fbff;
+
+body {
+    padding: 0%;
+    margin: 0%;
+
+    width: 100px;
+    min-height: 100vh;
+    min-width: 100vw;
+    
+    background-color: $snow;
+    color: $DarkTone01;
+}
+
+.app {
+    padding: 0%;
+    margin: 0%;
+
+    width: 100px;
+    min-height: 100vh;
+    min-width: 100vw;
+
+    background-color: orange;
+}

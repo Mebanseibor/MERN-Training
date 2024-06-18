@@ -78,8 +78,9 @@ This is a project aimed at providing training resources for MERN stack developme
 | --------------------------------------------------------------------------------------- |
 | [Development Environment Configuration](#development-environment-configuration)         |
 | [Hello World](./Projects/01%20Hello%20World/)                                           |
-| [Resume Portfolio📜](./Projects/Complete%20Projects/01%20Resume%20Portfolio//)                       |
-| [Tic-Tac-Toe App✖️🔘]()                                                                |
+| [Resume Portfolio📜](./Projects/Complete%20Projects/01%20Resume%20Portfolio//)          |
+| [States🔴🟡🟢](./Projects//Complete%20Projects//02%20States/)                         |
+<!-- | [Tic-Tac-Toe App✖️🔘]()                                                                | -->
 
 #### Development Environment Configuration
 *`Ensure you have an internet connection to download the packages`*
@@ -164,3 +165,6 @@ This is a project aimed at providing training resources for MERN stack developme
   
   - ### Debugging tips
     - #### Using Margins
+
+- #### Using ports from VS-Code
+  - ##### Requires Git-Hub sign-in

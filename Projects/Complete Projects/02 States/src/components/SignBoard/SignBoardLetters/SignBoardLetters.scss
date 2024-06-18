@@ -1,0 +1,22 @@
+.letters_container{
+    padding: 10px 10px;
+    
+    display: inline-flex;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.letters_letter{
+    padding: 64px 100% 64px 100%;
+    
+    font-size: 64px;
+    color : #252627ff;
+    opacity: 60%;
+}
+
+.letters_letter_highlighted{
+    padding: 64px 100% 64px 100%;
+    
+    font-size: 64px;
+    color : white;
+}
